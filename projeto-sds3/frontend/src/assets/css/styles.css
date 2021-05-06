@@ -1,0 +1,38 @@
+/* Fonte UBUNTU -> VIDE GOOGLE FONTS, select styles, check @ import, copia o comando */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* definir globalmente com : */
+:root {
+    --color-primary: #FF8400;
+}
+
+/* Se não achar o Ubuntu, usa a sans-serif */
+html, body {
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+/* rodapé */
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+/* estilos do tema basico do BOOTSTRAP, vide https://getbootstrap.com/docs/4.0/utilities/colors/ */
+.bg-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
