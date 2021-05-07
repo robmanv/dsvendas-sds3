@@ -36,6 +36,7 @@ public class Sale {
 	@NonNull
 	private LocalDate date;
 	
+	/* Como é MANYTOONE vai ficar fazendo SELECT 1 A 1 na base SELLER, vamos corrigir este caso, fazendo a pesquisa de todos os vendedores antes lá no SERVICE DO SALE */	
 	@NonNull
 	@ManyToOne
 	@JoinColumn(name = "seller_id")

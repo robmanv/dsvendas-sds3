@@ -19,6 +19,7 @@ public class SellerService {
 	public List<SellerDTO> findAll() {
 		List<Seller> list = sellerRepository.findAll();
 		
+		/* como o Page JÁ É UM STREAM DO JAVA 8, REMOVER O STREAM() E O COLLECT(COLLECTOR.TOLIST)) */
 		return list.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList()); 
 	}
 }
