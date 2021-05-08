@@ -1,8 +1,9 @@
-import NavBar from 'components/NavBar/index_lambda';
 import BarChart from '../../components/BarChart/index';
 import DonutChart from '../../components/DonutChart/index';
 import DataTable from 'components/DataTable';
 import Footer from 'components/Footer/index';
+import NavBar from '../../components/NavBar/index';
+
 const Dashboard = () => {
     return (
         <>
