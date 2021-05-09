@@ -26,7 +26,7 @@ public class SaleDTO {
 	
 	/* IMPORTANTE: A CAMADA CONTROLADORA NUNCA DEVE TER REFERENCIA A OBJETO DA CAMADA DE SERVIÇO */
 	@NonNull
-	private SellerDTO sellerDTO;
+	private SellerDTO seller;
 
 	public SaleDTO(Sale sale) {
 		this.id = sale.getId();
@@ -34,7 +34,7 @@ public class SaleDTO {
 		this.deals = sale.getDeals();
 		this.amount = sale.getAmount();
 		this.date = sale.getDate();
-		this.sellerDTO = new SellerDTO(sale.getSeller());
+		this.seller = new SellerDTO(sale.getSeller());
 	}
 	
 	
