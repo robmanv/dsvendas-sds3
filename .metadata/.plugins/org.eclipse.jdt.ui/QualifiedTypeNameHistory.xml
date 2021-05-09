@@ -2,9 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.experimental.NonFinal"/>
-    <fullyQualifiedTypeName name="lombok.NonNull"/>
     <fullyQualifiedTypeName name="com.devsuperior.dsvendas.entities.Seller"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="lombok.NonNull"/>
 </qualifiedTypeNameHistroy>
